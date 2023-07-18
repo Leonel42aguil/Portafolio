@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=davice-width, initial-scale=1.0">
     <title>Responsive Portafolio website Design</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <!-- <i class='bx bxs-moon'></i> -->
     <link rel="stylesheet" href="/css/css/style.css">
@@ -87,7 +89,7 @@
     </section>
 
     <section class="services" id="services">
-        <div class="heading">Mi <span>Services</span></div>
+        <h2 class="heading">Mi <span>Services</span></h2>
 
         <div class="services-container">
             <div class="services-box">
@@ -97,7 +99,7 @@
                 <a href="#" class="btn">Read More</a>
             </div>
             <div class="services-box">
-                <i class="bx bxs-paint"></i>
+                <i class="bx bxs-paint"></i> 
                 <h3>Graphic desing</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem natus voluptates illo commodi assumenda veritatis provident mollitia incidunt libero velit optio aut quaerat consequatur in, quas vel? Architecto, illo reprehenderit.</p>
                 <a href="#" class="btn">Read More</a>
@@ -110,6 +112,133 @@
             </div>
         </div>
     </section>
+
+    <section class="portafolio" id="portafolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portafolio-container">
+            <div class="portafolio-box">
+                <img src="/img/fafa.jpg" alt="project">
+
+                <div class="portafolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium minima vitae consequatur vero dolores voluptatibus sunt ab nam quos dignissimos.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portafolio-box">
+                <img src="/img/facha.jpeg" alt="project">
+
+                <div class="portafolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium minima vitae consequatur vero dolores voluptatibus sunt ab nam quos dignissimos.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portafolio-box">
+                <img src="/img/aguila.jpg" alt="project">
+
+                <div class="portafolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium minima vitae consequatur vero dolores voluptatibus sunt ab nam quos dignissimos.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portafolio-box">
+                <img src="/img/darth.jpg" alt="project">
+
+                <div class="portafolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium minima vitae consequatur vero dolores voluptatibus sunt ab nam quos dignissimos.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portafolio-box">
+                <img src="/img/itachi.jpg" alt="project">
+
+                <div class="portafolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium minima vitae consequatur vero dolores voluptatibus sunt ab nam quos dignissimos.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portafolio-box">
+                <img src="/img/messi.jpg" alt="project">
+
+                <div class="portafolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium minima vitae consequatur vero dolores voluptatibus sunt ab nam quos dignissimos.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="/img/leito.jpg" alt="">
+                        <h3>Leonel Aguilera</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat alias ut repellendus, sapiente cum pariatur amet corporis earum mollitia maiores quasi odio? Temporibus quis perspiciatis aspernatur quas, aliquid quod.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="/img/fede  (1).jpeg" alt="">
+                        <h3>Federico gomez</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat alias ut repellendus, sapiente cum pariatur amet corporis earum mollitia maiores quasi odio? Temporibus quis perspiciatis aspernatur quas, aliquid quod.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="/img/fede  (2).jpeg" alt="">
+                        <h3>Paula casandra</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat alias ut repellendus, sapiente cum pariatur amet corporis earum mollitia maiores quasi odio? Temporibus quis perspiciatis aspernatur quas, aliquid quod.</p>
+                    </div>
+                </div>
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+            <input type="number" placeholder="Full Name">
+            <input type="email" placeholder="Email Andress">
+            </div>
+
+            <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Codehal | All Ringhts Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <script src="/js/script.js"></script>
 </body>
